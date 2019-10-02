@@ -1,7 +1,7 @@
 {
   "name": "add-scope",
   "scope": "@gebeto",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool for adding scope to you package.json name",
   "main": "index.js",
   "scripts": {
