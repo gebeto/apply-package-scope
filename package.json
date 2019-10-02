@@ -1,0 +1,24 @@
+{
+  "name": "add-scope",
+  "scope": "@gebeto",
+  "version": "1.0.0",
+  "description": "CLI tool for adding scope to you package.json name",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gebeto/add-scope.git"
+  },
+  "bin": {
+    "add-scope": "./bin/add-scope.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gebeto/add-scope/issues"
+  },
+  "homepage": "https://github.com/gebeto/add-scope#readme"
+}
