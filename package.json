@@ -1,24 +1,24 @@
 {
-  "name": "add-scope",
+  "name": "apply-package-scope",
   "scope": "@gebeto",
   "version": "1.0.1",
-  "description": "CLI tool for adding scope to you package.json name",
+  "description": "CLI tool for applying scope to package.json name",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified, but it is ok\" && exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gebeto/add-scope.git"
+    "url": "git+https://github.com/gebeto/apply-package-scope.git"
   },
   "bin": {
-    "add-scope": "./bin/add-scope.js"
+    "apply-package-scope": "./bin/apply-package-scope.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gebeto/add-scope/issues"
+    "url": "https://github.com/gebeto/apply-package-scope/issues"
   },
-  "homepage": "https://github.com/gebeto/add-scope#readme"
+  "homepage": "https://github.com/gebeto/apply-package-scope#readme"
 }
