@@ -14,7 +14,13 @@
   "bin": {
     "apply-package-scope": "./bin/apply-package-scope.js"
   },
-  "keywords": [],
+  "keywords": [
+    "nodejs",
+    "node package",
+    "package.json",
+    "package modification",
+    "package scope"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
