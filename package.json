@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gebeto/apply-package-scope.git"
+    "url": "https://github.com/gebeto/apply-package-scope"
   },
   "bin": {
     "apply-package-scope": "./bin/apply-package-scope.js"
@@ -21,8 +21,12 @@
     "package modification",
     "package scope"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Slavik Nychkalo",
+    "email": "slavik.nychkalo@gmail.com",
+    "url": "https://gebeto.github.io/"
+  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gebeto/apply-package-scope/issues"
   },
