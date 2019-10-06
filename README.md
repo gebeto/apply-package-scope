@@ -58,4 +58,4 @@ Field `"name"` in your package.json will be changed to `"${scope}/${name}"`:
 
 ## License
 
-`apply-package-scope` is [MIT licensed](./LICENSE).
+**apply-package-scope** is [MIT licensed](./LICENSE).
