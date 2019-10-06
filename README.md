@@ -19,7 +19,7 @@ Or npm:
 ## Usage
 
 Add `"scope"` to your `package.json`:
-```json
+```javascript
 {
     "name": "my-package",
     "scope": "@gebeto",
@@ -27,17 +27,17 @@ Add `"scope"` to your `package.json`:
 }
 ```
 
-And then run command:
+After adding `"scope"` you can run command:
 ```sh
  $ apply-package-scope
 ```
 
 
-After running `apply-package-scope`, field `"name"` in your package.json will be changed to `"${scope}/${name}"`:
+Field `"name"` in your package.json will be changed to `"${scope}/${name}"`:
 ```diff
 {
--    "name": "my-package",
-+    "name": "@gebeto/my-package",
+-   "name": "my-package",
++   "name": "@gebeto/my-package",
     "scope": "@gebeto",
     ...
 }
@@ -53,4 +53,9 @@ After running `apply-package-scope`, field `"name"` in your package.json will be
  >         "apply-package-scope": "apply-package-scope"
  >     }
  > }
-```
+ > ```
+
+
+## License
+
+`apply-package-scope` is [MIT licensed](./LICENSE).
