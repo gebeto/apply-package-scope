@@ -5,7 +5,7 @@
   "description": "CLI tool for applying scope to package.json name",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified, but it is ok\" && exit 0"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -30,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/gebeto/apply-package-scope/issues"
   },
-  "homepage": "https://github.com/gebeto/apply-package-scope#readme"
+  "homepage": "https://github.com/gebeto/apply-package-scope#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
