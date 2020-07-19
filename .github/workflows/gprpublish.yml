@@ -1,4 +1,4 @@
-name: NPM Publish
+name: GPR Publish
 
 on:
   pull_request:
@@ -19,7 +19,7 @@ jobs:
       - run: yarn
       - run: yarn test
 
-  publish-npm:
+  publish-gpr:
     needs: test
     runs-on: ubuntu-latest
     steps:
@@ -27,8 +27,9 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 10
-          registry-url: https://registry.npmjs.org/
+          registry-url: https://npm.pkg.github.com/
+          scope: '@gebeto'
       - run: node ./bin/apply-package-scope.js
-      - run: yarn publish --access public
+      - run: yarn publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
