@@ -3,6 +3,7 @@
 CLI tool for adding scope to you package.json name
 
 ![NPM Publish](https://github.com/gebeto/apply-package-scope/workflows/NPM%20Publish/badge.svg)
+![GPR Publish](https://github.com/gebeto/apply-package-scope/workflows/GPR%20Publish/badge.svg)
 
 
 ## Getting Started

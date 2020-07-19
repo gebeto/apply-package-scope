@@ -1,12 +1,15 @@
 name: GPR Publish
 
 on:
-  pull_request:
-    branches:
-      - master
-  push:
-    branches:
-      - master
+  create:
+    tags:
+      - v*
+  # pull_request:
+  #   branches:
+  #     - master
+  # push:
+  #   branches:
+  #     - master
 
 jobs:
   test:
