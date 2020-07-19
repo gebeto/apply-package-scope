@@ -1,5 +1,8 @@
 # apply-package-scope
+
 CLI tool for adding scope to you package.json name
+
+![NPM Publish](https://github.com/gebeto/apply-package-scope/workflows/NPM%20Publish/badge.svg)
 
 
 ## Getting Started
