@@ -12,10 +12,6 @@ describe("apply-package-scope", () => {
 		expect(loadedPackage.name).toBe('apply-package-scope');
 	});
 	
-	// it("savePackage", () => {
-	// 	expect(1).toBe(1);
-	// });
-	
 	it("getPackageScope", () => {
 		const scope = getPackageScope(loadedPackage);
 		expect(scope).toBe("@gebeto");
