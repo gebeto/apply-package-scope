@@ -32,6 +32,6 @@
   },
   "homepage": "https://github.com/gebeto/apply-package-scope#readme",
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^26.1.0"
   }
 }
